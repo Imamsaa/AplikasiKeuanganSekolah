@@ -7,10 +7,10 @@
     <title><?= $title ?></title>
 
     <!-- Font Icon -->
-    <link rel="stylesheet" href="<?= base_url('public/front/fonts/material-icon/css/material-design-iconic-font.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('public/frontend/fonts/material-icon/css/material-design-iconic-font.min.css'); ?>">
 
     <!-- Main css -->
-    <link rel="stylesheet" href=" <?= base_url('public/front/css/style.css'); ?>">
+    <link rel="stylesheet" href=" <?= base_url('public/frontend/css/style.css'); ?>">
 </head>
 <body>
 
@@ -49,7 +49,7 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="<?= base_url('public/front/images/signup-image.jpg'); ?>" alt="sing up image"></figure>
+                        <figure><img src="<?= base_url('public/frontend/images/signup-image.jpg'); ?>" alt="sing up image"></figure>
                         <a href="#" class="signup-image-link">I am already member</a>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
     </div>
 
     <!-- JS -->
-    <script src="<?= base_url('public/front/vendor/jquery/jquery.min.js'); ?>"></script>
-    <script src="<?= base_url('public/front/js/main.js'); ?>"></script>
+    <script src="<?= base_url('public/frontend/vendor/jquery/jquery.min.js'); ?>"></script>
+    <script src="<?= base_url('public/frontend/js/main.js'); ?>"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
