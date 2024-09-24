@@ -49,8 +49,8 @@
                         </form>
                     </div>
                     <div class="signup-image">
-                        <figure><img src="<?= base_url('public/frontend/images/signup-image.jpg'); ?>" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link">I am already member</a>
+                        <figure><img src="<?= base_url('public/frontend/images/register.png'); ?>" alt="sing up image"></figure>
+                        <a href="<?= base_url(); ?>" class="signup-image-link">I Have Account</a>
                     </div>
                 </div>
             </div>
