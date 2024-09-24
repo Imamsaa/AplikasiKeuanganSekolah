@@ -5,4 +5,12 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+// Halaman Depan
+$routes->get('/', 'Login::index');
+$routes->get('/register', 'Register::index');
+
+// Halaman Admin
+$routes->get('/admin', 'Admin\Home::index');
+
+// Halaman Siswa
+$routes->get('/siswa', 'Siswa\Home::index');

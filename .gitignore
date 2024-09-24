@@ -84,7 +84,7 @@ phpunit
 #-------------------------
 # Composer
 #-------------------------
-vendor/
+
 
 #-------------------------
 # IDE / Development Files
@@ -102,9 +102,9 @@ _modules/*
 
 # Netbeans
 nbproject/
-build/
+
 nbbuild/
-dist/
+
 nbdist/
 nbactions.xml
 nb-configuration.xml
